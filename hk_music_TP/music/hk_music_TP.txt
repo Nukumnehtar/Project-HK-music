@@ -1,0 +1,229 @@
+
+song = {
+	name = "TP_Title_Theme.ogg"
+	song_name = "Twilight Princess Title Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1		
+	}
+}
+
+song = {
+	name = "TP_Ilia's_Theme.ogg"
+	song_name = "Ilia's Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = ordonion }
+			NOT = { religion = light_spirits }
+		}		
+	}
+}
+
+song = {
+	name = "TP_Ordon_Village.ogg"
+	song_name = "Ordon Village - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = ordonion }
+			NOT = { religion = light_spirits }
+		}			
+	}
+}
+
+song = {
+	name = "TP_Faron_Woods.ogg"
+	song_name = "Faron Woods - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = ordonion }
+			NOT = {	culture = kokiri }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = skull_kid }
+			#NOT = {	culture = korok }
+			NOT = {	religion = great_deku }
+			NOT = { religion = light_spirits }
+		}		
+	}
+}
+
+song = {
+	name = "TP_Lake_Hylia.ogg"
+	song_name = "Lake Hylia - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = { religion = light_spirits }
+			NOT = { religion_group = goddesses_religion }
+			NOT = { religion = water_spirit }
+			NOT = { religion = jabu_jabu }
+			NOT = { religion = jabun_religion }
+			NOT = { culture = lake_zora }
+			NOT = { culture = sea_zora }
+		}		
+	}
+}
+
+song = {
+	name = "TP_Sacred_Grove.ogg"
+	song_name = "Sacred Grove - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = kokiri }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = skull_kid }
+			#NOT = {	culture = korok }
+			NOT = {	religion = great_deku }
+		}			
+	}
+}
+
+song = {
+	name = "TP_Hyrule_Field_on_Foot.ogg"
+	song_name = "Hyrule Field on Foot - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "TP_Fishing_Hole.ogg"
+	song_name = "Fishing Hole - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = { religion = light_spirits }
+			NOT = { religion_group = goddesses_religion }
+			NOT = { religion = water_spirit }
+			NOT = { religion = jabu_jabu }
+			NOT = { religion = jabun_religion }
+			NOT = { culture = lake_zora }
+			NOT = { culture = sea_zora }
+		}	
+	}
+}
+
+song = {
+	name = "TP_Hyrule_Castle_Market_East.ogg"
+	song_name = "Hyrule Castle Market East - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = { culture_group = hylian_group }
+		}	
+	}
+}
+
+song = {
+	name = "TP_Enter_Ilia.ogg"
+	song_name = "Enter Ilia - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = ordonion }
+			NOT = { religion = light_spirits }
+		}		
+	}
+}
+
+song = {
+	name = "TP_Midna_Suite.ogg"
+	song_name = "Midna Suite - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = twili }
+		}		
+	}
+}
+
+song = {
+	name = "TP_Get_Fused_Shadow.ogg"
+	song_name = "Get Fused Shadow - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = twili }
+		}		
+	}
+}
+
+song = {
+	name = "TP_Armogohma_First_Form.ogg"
+	song_name = "Armogohma (First Form) - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = kokiri }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = skull_kid }
+			#NOT = {	culture = korok }
+			NOT = {	religion = great_deku }
+		}			
+	}
+}
+
+song = {
+	name = "TP_Hyrule_Field_on_Horse.ogg"
+	song_name = "Hyrule Field on Horse - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "TP_Kakariko_Village.ogg"
+	song_name = "Armogohma (First Form) - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = eldin }
+			NOT = {	culture = hyrulean }
+			NOT = {	culture = sheikah }
+			NOT = { religion = light_spirits }
+		}			
+	}
+}
+
+song = {
+	name = "TP_Back_from_the_Spring.ogg"
+	song_name = "Back from the Spring - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = ordonion }
+			NOT = { religion = light_spirits }
+		}		
+	}
+}

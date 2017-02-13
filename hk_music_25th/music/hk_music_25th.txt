@@ -1,0 +1,99 @@
+
+song = {
+	name = "hk_music_25_1.ogg"
+	song_name = "The Legend Of Zelda 25th Anniversary Medley"
+	
+	chance = {
+		factor = 2 
+	}
+}
+
+
+
+song = {
+	name = "hk_music_25_2.ogg"
+	song_name = "Kakariko Village (Twilight Princess Theme)"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = eldin }
+			NOT = {	culture = hyrulean }
+			NOT = {	culture = sheikah }
+			NOT = { religion = light_spirits }
+		}	
+	}
+}
+
+
+
+song = {
+	name = "hk_music_25_3.ogg"
+	song_name = "The Wind Waker Symphonic Movement"
+	
+	chance = {
+		factor = 2 
+	}
+}
+
+
+
+song = {
+	name = "hk_music_25_4.ogg"
+	song_name = "Gerudo Valley"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = { culture = gerudo }
+			NOT = { culture = zuna }
+		}	
+	}
+}
+
+song = {
+	name = "hk_music_25_5.ogg"
+	song_name = "Great Fairy's Fountain Theme"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = { culture = great_fairy }
+		}	
+	}
+}
+
+song = {
+	name = "hk_music_25_6.ogg"
+	song_name = "Twilight Princess Symphonic Movement"
+	
+	chance = {
+		factor = 2 
+	}
+}
+
+song = {
+	name = "hk_music_25_7.ogg"
+	song_name = "The Legend Of Zelda Main Theme Medley"
+	
+	chance = {
+		factor = 2 
+	}
+}
+
+song = {
+	name = "hk_music_25_8.ogg"
+	song_name = "Ballad Of The Goddess From Skyward Sword"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = { religion_group = goddesses_religion }
+		}
+	}
+}

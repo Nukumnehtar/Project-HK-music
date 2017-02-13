@@ -1,0 +1,1243 @@
+
+song = {
+	name = "01_Title_Theme.ogg"
+	song_name = "Ocarina of Time Title Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { religion_group = goddesses_religion }
+		}		
+	}
+}
+
+song = {
+	name = "02_Enter_Ganondorf.ogg"
+	song_name = "Enter Ganondorf - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "03_Deku_Tree.ogg"
+	song_name = "The Great Deku Tree - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = kokiri }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = skull_kid }
+			#NOT = {	culture = korok }
+			NOT = {	religion = great_deku }
+			NOT = {	religion = baga_tree }
+			NOT = {	culture = great_fairy }
+		}		
+	}
+}
+
+song = {
+	name = "04_Fairy_Flying.ogg"
+	song_name = "Fairy Flying - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	culture = kokiri }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = skull_kid }
+			#NOT = {	culture = korok }
+			NOT = {	religion = great_deku }
+			NOT = {	culture = great_fairy }
+			NOT = {	dynasty = 14601 }
+		}		
+	}
+}
+
+song = {
+	name = "05_House.ogg"
+	song_name = "Ocarina of Time Inside a House - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+		modifier = {
+			factor = 0
+			NOT = { culture_group = hylian_group }
+			NOT = { culture_group = round_eared }
+			NOT = { culture = kokiri }
+			NOT = { culture = new_hyrulean }
+		}		
+	}
+}
+
+song = {
+	name = "06_Kokiri_Forest.ogg"
+	song_name = "Kokiri_Forest - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = { culture = kokiri }
+			NOT = { culture = deku_tree }
+			#NOT = { culture = korok }
+		}
+	}
+}
+
+song = {
+	name = "07_Open_Treasure_Chest.ogg"
+	song_name = "Open Treasure Chest - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "08_Item_Catch.ogg"
+	song_name = "Item Catch - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "09_Small_Item_Catch.ogg"
+	song_name = "Small Item Catch - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "10_Shop.ogg"
+	song_name = "Ocarina of Time Shop - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+		modifier = {
+			factor = 0 
+			NOT = { culture_group = hylian_group }
+			NOT = { culture_group = round_eared }
+			NOT = { culture = new_hyrulean }
+		}		
+	}
+}
+
+song = {
+	name = "11_Battle.ogg"
+	song_name = "Ocarina of Time Battle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "12_Inside_the_Deku_Tree.ogg"
+	song_name = "Inside the Deku Tree - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	culture = kokiri }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = skull_kid }
+			#NOT = {	culture = korok }
+			NOT = {	religion = great_deku }
+			NOT = {	religion = baga_tree }
+			NOT = {	culture = great_fairy }
+		}		
+	}
+}
+
+song = {
+	name = "13_Boss_Battle.ogg"
+	song_name = "Ocarina of Time Boss Battle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "14_Boss_Clear.ogg"
+	song_name = "Ocarina of Time Boss Clear - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "15_Heart_Container_Get.ogg"
+	song_name = "Ocarina of Time Get Heart Container - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "16_Legend_of_Hyrule.ogg"
+	song_name = "The Legend of Hyrule- Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1
+			NOT = {	religion_group = goddesses_religion }
+			NOT = {	religion_group = guardian_deity }
+			NOT = {	religion_group = minor_deity }
+			NOT = {	religion = wizzrobe_doctrine }
+		}
+	}
+}
+
+song = {
+	name = "17_Spiritual_Stone_Get.ogg"
+	song_name = "Get Spiritual Stone- Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1
+			NOT = {	religion_group = goddesses_religion }
+			NOT = {	religion_group = guardian_deity }
+			NOT = {	religion_group = minor_deity }
+			NOT = {	religion = wizzrobe_doctrine }
+		}
+	}
+}
+
+song = {
+	name = "18_Fairy_Ocarina_Get.ogg"
+	song_name = "Get Fairy Ocarina - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	culture = kokiri }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = skull_kid }
+			#NOT = {	culture = korok }
+			NOT = {	religion = great_deku }
+			NOT = {	culture = great_fairy }
+		}		
+	}
+}
+
+
+song = {
+	name = "19_Hyrule_Field_Main_Theme.ogg"
+	song_name = "Ocarina of Time Hyrule Field Main Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "20_Kaepora_Gaebora's_Theme.ogg"
+	song_name = "Kaepora Gaebora's Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "21_Market.ogg"
+	song_name = "Hyrule Castle Market - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = { culture_group = hylian_group }
+		}
+	}
+}
+
+
+song = {
+	name = "22_Shooting_Gallery.ogg"
+	song_name = "Shooting Gallery - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+		modifier = {
+			factor = 0
+			NOT = { culture_group = hylian_group }
+			#NOT = { culture = terminan }
+		}
+	}
+}
+
+song = {
+	name = "23_Hyrule_Castle_Courtyard.ogg"
+	song_name = "Hyrule Castle Courtyard - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	religion_group = goddesses_religion }
+		}
+	}
+}
+
+song = {
+	name = "24_Enter_Zelda.ogg"
+	song_name = "Enter Zelda - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = sheikah }
+		}
+	}
+}
+
+song = {
+	name = "25_Ocarina_-_Zelda's_Lullaby.ogg"
+	song_name = "Ocarina - Zelda's Lullaby - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = sheikah }
+		}
+	}
+}
+
+song = {
+	name = "26_Zelda's_Theme.ogg"
+	song_name = "Zelda's Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = sheikah }
+		}
+	}
+}
+
+song = {
+	name = "27_Ocarina_-_Epona's_Song.ogg"
+	song_name = "Ocarina - Epona's Song - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	dynasty = 40 }
+			NOT = {	culture = ordonion }
+		}
+	}
+}
+
+song = {
+	name = "28_Lon_Lon_Ranch.ogg"
+	song_name = "Lon Lon Ranch - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	dynasty = 40 }
+			NOT = {	culture = ordonion }
+		}
+	}
+}
+
+song = {
+	name = "29_Mini_Game.ogg"
+	song_name = "Mini Game Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+		modifier = {
+			factor = 0
+			NOT = {	religion_group = goddesses_religion }
+			NOT = {	religion_group = guardian_deity }
+			NOT = {	religion_group = minor_deity }
+			#NOT = {	culture = terminan }
+		}
+	}
+}
+
+song = {
+	name = "30_Kakariko_Village.ogg"
+	song_name = "Ocarina of Time Kakariko Village - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	culture = eldin }
+			NOT = {	culture = hyrulean }
+			NOT = {	culture = sheikah }
+			NOT = { religion = light_spirits }
+		}
+	}
+}
+
+song = {
+	name = "31_Ocarina_-_Sun's_Song.ogg"
+	song_name = "Ocarina - Sun's Song - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = sheikah }
+		}
+	}
+}
+
+song = {
+	name = "32_Hyrule_Field_Morning_Theme.ogg"
+	song_name = "Hyrule Field Morning Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "33_Goron_City.ogg"
+	song_name = "Goron City - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = { culture_group = goron_group }
+		}
+	}
+}
+
+song = {
+	name = "34_Ocarina_-_Saria's_Song.ogg"
+	song_name = "Ocarina - Saria's Song - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = kokiri }
+			NOT = {	culture = skull_kid }
+			#NOT = {	culture = korok }
+			NOT = {	culture = deku_tree }
+		}
+	}
+}
+
+song = {
+	name = "35_Lost_Woods.ogg"
+	song_name = "Lost Woods - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = kokiri }
+			NOT = {	culture = skull_kid }
+			NOT = {	culture = deku_scrub }
+			#NOT = {	culture = korok }
+			NOT = {	culture = deku_tree }
+			NOT = {	religion = great_deku }
+		}
+	}
+}
+
+song = {
+	name = "36_Dodongo's_Cavern.ogg"
+	song_name = "Dodongo's Cavern - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = { culture_group = goron_group }
+			NOT = { culture_group = lfos }
+			NOT = { culture_group = blin }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "37_Middle_Boss_Battle.ogg"
+	song_name = "Ocarina of Time Mid-Boss Battle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "38_Dinosaur_Boss_Battle.ogg"
+	song_name = "King Dodongo Battle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = { culture_group = goron_group }
+			NOT = { culture_group = lfos }
+			NOT = { culture_group = blin }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "39_Zora's_Domain.ogg"
+	song_name = "Ocarina of Time Zora's Domain - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = { religion = water_spirit }
+			NOT = { religion = jabu_jabu }
+			NOT = { religion = jabun_religion }
+			NOT = { culture = lake_zora }
+			NOT = { culture = sea_zora }
+		}
+	}
+}
+
+song = {
+	name = "40_Great_Fairy's_Fountain.ogg"
+	song_name = "Great Fairy's Fountain - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = { culture = great_fairy }
+		}
+	}
+}
+
+song = {
+	name = "41_Potion_Shop.ogg"
+	song_name = "Potion Shop - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = { culture = gerudo }
+			NOT = { culture = zuna }
+			NOT = { culture = gem_lander }
+			NOT = { culture = darknut }
+			NOT = { culture = cobble }
+		}
+	}
+}
+
+song = {
+	name = "42_Inside_Jabu-Jabu's_Belly.ogg"
+	song_name = "Inside Jabu-Jabu's Belly - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = { religion = water_spirit }
+			NOT = { religion = jabu_jabu }
+			NOT = { religion = jabun_religion }
+			NOT = { culture_group = aquatic_group }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "43_Ocarina_-_Song_of_Time.ogg"
+	song_name = "Ocarina - Song of Time - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = golden_goddesses }
+			NOT = {	religion = hylia_religion }
+			NOT = {	religion = sheikahism }
+		}
+	}
+}
+
+song = {
+	name = "44_Temple_of_Time.ogg"
+	song_name = "Temple of Time - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = golden_goddesses }
+			NOT = {	religion = hylia_religion }
+			NOT = {	religion = sheikahism }
+		}
+	}
+}
+
+song = {
+	name = "45_Door_of_Time.ogg"
+	song_name = "Door of Time - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = golden_goddesses }
+			NOT = {	religion = hylia_religion }
+			NOT = {	religion = sheikahism }
+		}
+	}
+}
+
+song = {
+	name = "46_Master_Sword.ogg"
+	song_name = "Master Sword - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = golden_goddesses }
+			NOT = {	religion = hylia_religion }
+			NOT = {	religion = sheikahism }
+		}
+	}
+}
+
+song = {
+	name = "47_Ganondorf's_Theme.ogg"
+	song_name = "Ganondorf's Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = { culture = gerudo }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "48_Chamber_of_Sages.ogg"
+	song_name = "Chamber of Sages - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = golden_goddesses }
+			NOT = {	religion = hylia_religion }
+			NOT = {	religion = sheikahism }
+			#NOT = {	has_trait = sage }
+		}
+	}
+}
+
+song = {
+	name = "49_Medal_Get_Fanfare.ogg"
+	song_name = "Get Medal Fanfare - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = golden_goddesses }
+			NOT = {	religion = hylia_religion }
+			NOT = {	religion = sheikahism }
+			#NOT = {	has_trait = sage }
+		}
+	}
+}
+
+song = {
+	name = "50_Sheik's_Theme.ogg"
+	song_name = "Sheik's Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = hylia_religion }
+			NOT = {	religion = sheikahism }
+			NOT = {	culture = sheikah }
+		}
+	}
+}
+
+song = {
+	name = "51_Horse_Race.ogg"
+	song_name = "Horse Race - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 40 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = ordonion }
+		}
+	}
+}
+
+song = {
+	name = "52_Horse_Race_Goal.ogg"
+	song_name = "Horse Race Goal - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 40 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = ordonion }
+		}
+	}
+}
+
+song = {
+	name = "53_Ingo's_Theme.ogg"
+	song_name = "Ingo's Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 40 }
+			NOT = {	culture = ordonion }
+		}
+	}
+}
+
+song = {
+	name = "54_Escape_from_Lon_Lon_Ranch.ogg"
+	song_name = "Escape from Lon Lon Ranch - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 40 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = ordonion }
+		}
+	}
+}
+
+song = {
+	name = "55_Kakariko_Village_Orchestra_Version.ogg"
+	song_name = "Kakariko Village Orchestra Version - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	culture = eldin }
+			NOT = {	culture = hyrulean }
+			NOT = {	culture = sheikah }
+			NOT = { religion = light_spirits }
+		}
+	}
+}
+
+song = {
+	name = "56_Ocarina_-_Song_of_Storms.ogg"
+	song_name = "Ocarina - Song of Storms - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = sheikah }
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+		}
+	}
+}
+
+song = {
+	name = "57_Windmill_Hut.ogg"
+	song_name = "Windmill Hut - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = sheikah }
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+		}
+	}
+}
+
+song = {
+	name = "58_Minuet_of_Forest.ogg"
+	song_name = "Minuet of Forest - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = kokiri }
+			#NOT = {	culture = korok }
+			NOT = {	culture = deku_tree }
+		}
+	}
+}
+
+song = {
+	name = "59_Forest_Temple.ogg"
+	song_name = "Forest Temple - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = kokiri }
+			NOT = {	culture = skull_kid }
+			#NOT = {	culture = korok }
+			NOT = {	culture = deku_tree }
+			NOT = {	culture = baga_tree }
+			NOT = {	culture = great_fairy }
+			NOT = {	culture_group = blin }
+			NOT = {	culture_group = undead }
+			NOT = {	religion = great_deku }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "60_Bolero_of_Fire.ogg"
+	song_name = "Bolero of Fire - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture_group = goron_group }
+		}
+	}
+}
+
+song = {
+	name = "61_Fire_Temple.ogg"
+	song_name = "Fire Temple - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture_group = goron_group }
+			NOT = {	culture_group = lfos }
+			NOT = {	religion = fire_spirit }
+			NOT = {	religion = barba_religion }
+			NOT = {	religion = volvagia_religion }
+			#NOT = {	culture_group = rosian }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "62_Ice_Cavern.ogg"
+	song_name = "Ice Cavern - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	is_winter = yes }  # winter
+			NOT = {	culture = lake_zora }
+			NOT = {	culture = anouki }
+			NOT = {	culture = yeti }
+			NOT = {	culture = yook }
+			NOT = {	culture = frozen_isle }
+			NOT = {	religion = water_spirit }
+			NOT = {	religion = jabu_jabu }
+			NOT = {	religion = jabun_religion }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "63_Serenade_of_Water.ogg"
+	song_name = "Serenade_of_Water - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = lake_zora }
+			NOT = {	culture = sea_zora }
+			NOT = {	religion = water_spirit }
+			NOT = {	religion = jabu_jabu }
+			NOT = {	religion = jabun_religion }
+		}
+	}
+}
+
+song = {
+	name = "64_Water_Temple.ogg"
+	song_name = "Water Temple - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = { culture_group = aquatic_group }
+			NOT = {	religion = water_spirit }
+			NOT = {	religion = jabu_jabu }
+			NOT = {	religion = jabun_religion }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "65_Nocturne_of_Shadow.ogg"
+	song_name = "Nocturne of Shadow - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = { culture = sheikah }
+			NOT = {	religion = sheikahism }
+			NOT = {	religion = sheikahism_nihalism }
+		}
+	}
+}
+
+song = {
+	name = "66_Prelude_of_Light.ogg"
+	song_name = "Prelude of Light - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = golden_goddesses }
+			NOT = {	religion = hylia_religion }
+		}
+	}
+}
+
+song = {
+	name = "67_Shadow_Temple.ogg"
+	song_name = "Shadow Temple - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = { culture = sheikah }
+			NOT = { culture_group = undead }
+			NOT = {	religion = sheikahism }
+			NOT = {	religion = sheikahism_nihalism }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "68_Gerudo_Valley.ogg"
+	song_name = "Gerudo Valley - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = { culture = gerudo }
+			NOT = { culture = zuna }
+		}
+	}
+}
+
+song = {
+	name = "69_Spirit_Temple.ogg"
+	song_name = "Spirit Temple - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = { culture = gerudo }
+			NOT = { culture = zuna }
+			NOT = { culture = cobble }
+			NOT = { culture_group = undead }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "70_Requiem_of_Spirit.ogg"
+	song_name = "Requiem of Spirit - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = { culture = gerudo }
+		}
+	}
+}
+
+song = {
+	name = "71_Kotake_&_Koume's_Theme.ogg"
+	song_name = "Kotake & Koume's Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = { culture = gerudo }
+			NOT = { culture = zuna }
+			NOT = { culture = cobble }
+		}
+	}
+}
+
+song = {
+	name = "72_Meet_Zelda_Again.ogg"
+	song_name = "Meet Zelda Again - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = golden_goddesses }
+			NOT = {	religion = hylia_religion }
+			NOT = {	religion = sheikahism }
+		}
+	}
+}
+
+song = {
+	name = "73_Game_Over.ogg"
+	song_name = "Game Over - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "74_Ganon's_Castle_Bridge.ogg"
+	song_name = "Ganon's Castle Bridge - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = golden_goddesses }
+			NOT = {	religion = hylia_religion }
+			NOT = {	religion = sheikahism }
+		}
+	}
+}
+
+song = {
+	name = "75_Ganon's_Castle_Under_Ground.ogg"
+	song_name = "Ganon's Castle Under Ground - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = { culture_group = undead }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "75_Ganon's_Castle_Under_Ground.ogg"
+	song_name = "Ganon's Castle Under Ground - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = { culture_group = undead }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "76_Inside_Ganon's_Castle.ogg"
+	song_name = "Inside Ganon's Castle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "77_Ganondorf_Battle.ogg"
+	song_name = "Ganondorf Battle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+	}
+}
+
+song = {
+	name = "78_Escape_from_Ganon's_Castle.ogg"
+	song_name = "Escape from Ganon's Castle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+	}
+}
+
+song = {
+	name = "79_Last_Battle.ogg"
+	song_name = "Last Battle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+	}
+}
+
+song = {
+	name = "80_Seal_of_Six_Sages.ogg"
+	song_name = "Seal of the Seven Sages - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+	}
+}
+
+song = {
+	name = "81_Ocarina_of_Time.ogg"
+	song_name = "Ocarina of Time - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = golden_goddesses }
+			NOT = {	religion = hylia_religion }
+			NOT = {	religion = sheikahism }
+		}
+	}
+}
+
+song = {
+	name = "82_End_Credits.ogg"
+	song_name = "Ocarina of Time End Credits - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = golden_goddesses }
+			NOT = {	religion = hylia_religion }
+			NOT = {	religion = sheikahism }
+		}
+	}
+}
+

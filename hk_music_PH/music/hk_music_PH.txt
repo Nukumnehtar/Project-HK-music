@@ -1,0 +1,90 @@
+
+song = {
+	name = "PH_Linebeck.ogg"
+	song_name = "Linebeck - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "PH_Mercay_Island.ogg"
+	song_name = "Mercay Island - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = spirit_continent }
+			NOT = {	culture = koholinter }
+			NOT = {	culture = gravel }
+			NOT = {	culture = cobble }
+			NOT = {	culture = pebble }
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+		}		
+	}
+}
+
+song = {
+	name = "PH_Inside_a_House.ogg"
+	song_name = "Inside a House - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = spirit_continent }
+			NOT = {	culture = koholinter }
+			NOT = {	culture = gravel }
+			NOT = {	culture = cobble }
+			NOT = {	culture = pebble }
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+		}			
+	}
+}
+
+song = {
+	name = "PH_Chasing_the_Ghost_Ship.ogg"
+	song_name = "Chasing the Ghost Ship - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "PH_Ciela's_Theme.ogg"
+	song_name = "Ciela's Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = spirit_continent }
+			NOT = {	culture = koholinter }
+			NOT = {	culture = gravel }
+			NOT = {	culture = cobble }
+			NOT = {	culture = pebble }
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+		}			
+	}
+}

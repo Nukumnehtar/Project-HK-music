@@ -1,0 +1,710 @@
+
+song = {
+	name = "001_Title.ogg"
+	song_name = "The Wind Waker Title Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+			NOT = {	religion = pirate_doctrine }
+		}				
+	}
+}
+
+song = {
+	name = "001_Title_Redux.ogg"
+	song_name = "The Wind Waker Title Theme Redux - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+			NOT = {	religion = pirate_doctrine }
+		}			
+	}
+}
+
+song = {
+	name = "002_Menu_Selection.ogg"
+	song_name = "The Wind Waker Menu Selection - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = great_fairy }
+		}			
+	}
+}
+
+song = {
+	name = "003_The_Legendary_Hero.ogg"
+	song_name = "The Legendary Hero - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = { religion_group = goddesses_religion }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+		}		
+	}
+}
+
+song = {
+	name = "003_The_Legendary_Hero_Redux.ogg"
+	song_name = "The Legendary Hero Redux - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = { religion_group = goddesses_religion }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+		}		
+	}
+}
+
+song = {
+	name = "004_Outset_Island.ogg"
+	song_name = "Outset Island - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+		}		
+	}
+}
+
+song = {
+	name = "004_Outset_Island_Redux.ogg"
+	song_name = "Outset Island Redux - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+		}		
+	}
+}
+
+song = {
+	name = "005_Inside_a_House.ogg"
+	song_name = "Inside a House - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0 
+			NOT = { culture_group = hylian_group }
+			NOT = { culture_group = round_eared }
+			NOT = { culture = kokiri }
+			NOT = { culture = new_hyrulean }
+		}		
+	}
+}
+
+song = {
+	name = "006_Orca's_House.ogg"
+	song_name = "Orca's House - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+		}		
+	}
+}
+
+song = {
+	name = "007_Fencing_Instruction.ogg"
+	song_name = "Fencing Instruction - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+			NOT = {	religion = pirate_doctrine }
+		}		
+	}
+}
+
+song = {
+	name = "008_Beedle's_Shop.ogg"
+	song_name = "Beedle's Shop - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0 
+			NOT = { culture_group = hylian_group }
+			NOT = { culture_group = round_eared }
+			NOT = { culture = new_hyrulean }
+		}		
+	}
+}
+
+song = {
+	name = "016_Graaandma.ogg"
+	song_name = "Graaandma - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+		}		
+	}
+}
+
+song = {
+	name = "018_Departure.ogg"
+	song_name = "Departure - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+			NOT = {	religion = pirate_doctrine }
+		}		
+	}
+}
+
+song = {
+	name = "019_Inside_the_Pirate_Ship.ogg"
+	song_name = "Inside the Pirate Ship - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+			NOT = {	religion = pirate_doctrine }
+		}		
+	}
+}
+
+song = {
+	name = "022_Forsaken_Fortress.ogg"
+	song_name = "Forsaken Fortress - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	religion = pirate_doctrine }
+			NOT = {	culture_group = blin }
+		}		
+	}
+}
+
+song = {
+	name = "028_Windfall_Island.ogg"
+	song_name = "Windfall Island - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+			NOT = {	religion = pirate_doctrine }
+		}		
+	}
+}
+
+song = {
+	name = "028_Windfall_Island_Redux.ogg"
+	song_name = "Windfall Island Redux - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+			NOT = {	religion = pirate_doctrine }
+		}		
+	}
+}
+
+song = {
+	name = "028_Windfall_Island_Redux.ogg"
+	song_name = "Windfall Island Redux - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+			NOT = {	religion = pirate_doctrine }
+		}		
+	}
+}
+
+song = {
+	name = "030_Dawn.ogg"
+	song_name = "Dawn - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = hylian_group }
+			NOT = {	culture_group = round_eared }
+		}		
+	}
+}
+
+song = {
+	name = "031_Ocean.ogg"
+	song_name = "Ocean - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "031_Ocean_Redux.ogg"
+	song_name = "Ocean Redux - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "031_Ocean_Redux_v2.ogg"
+	song_name = "Ocean Redux v2 - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "038_Dragon_Roost_Island.ogg"
+	song_name = "Dragon Roost Island - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = avian_group }
+			NOT = {	culture_group = valoo_religion }
+		}		
+	}
+}
+
+song = {
+	name = "038_Dragon_Roost_Island_Redux.ogg"
+	song_name = "Dragon Roost Island Redux - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = avian_group }
+			NOT = {	culture_group = valoo_religion }
+		}		
+	}
+}
+
+song = {
+	name = "056_Forest_Haven.ogg"
+	song_name = "Forest Haven - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = kokiri }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = skull_kid }
+			#NOT = {	culture = korok }
+			NOT = {	religion = great_deku }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}		
+	}
+}
+
+song = {
+	name = "057_Inside_Forest_Haven.ogg"
+	song_name = "Inside Forest Haven - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = kokiri }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = skull_kid }
+			#NOT = {	culture = korok }
+			NOT = {	religion = great_deku }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}		
+	}
+}
+
+song = {
+	name = "065_The_Great_Sea_Is_Cursed.ogg"
+	song_name = "The Great Sea Is Cursed - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "067_Jabun.ogg"
+	song_name = "Jabun - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = aquatic_group }
+			NOT = {	religion = water_spirit }
+			NOT = {	religion = jabu_jabu }
+			NOT = {	religion = jabun_religion }
+		}		
+	}
+}
+
+song = {
+	name = "068_Tower_of_the_Gods_Appears.ogg"
+	song_name = "Tower of the Gods Appears - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	religion_group = goddesses_religion }
+		}		
+	}
+}
+
+song = {
+	name = "069_Tower_of_the_Gods.ogg"
+	song_name = "Tower of the Gods - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	religion_group = goddesses_religion }
+		}		
+	}
+}
+
+song = {
+	name = "073_To_Hyrule.ogg"
+	song_name = "To Hyrule - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	religion_group = goddesses_religion }
+		}		
+	}
+}
+
+song = {
+	name = "076_Hyrule_Castle.ogg"
+	song_name = "The Wind Waker Hyrule Castle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	religion_group = goddesses_religion }
+		}		
+	}
+}
+
+song = {
+	name = "076_Hyrule_Castle.ogg"
+	song_name = "The Wind Waker Hyrule Castle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	religion_group = goddesses_religion }
+		}		
+	}
+}
+
+song = {
+	name = "088_Hyrule_King_Appears.ogg"
+	song_name = "Hyrule King Appears - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	religion_group = goddesses_religion }
+			NOT = {	culture_group = hylian_group }
+		}		
+	}
+}
+
+song = {
+	name = "089_Zelda's_Awakening.ogg"
+	song_name = "Zelda's Awakening - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	religion_group = goddesses_religion }
+			NOT = {	culture_group = hylian_group }
+		}		
+	}
+}
+
+song = {
+	name = "091_Ballad_of_Gales_Baton.ogg"
+	song_name = "Ballad of Gales (Baton) - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+			NOT = {	religion = pirate_doctrine }
+		}		
+	}
+}
+
+song = {
+	name = "091_Ballad_of_Gales.ogg"
+	song_name = "Ballad of Gales - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+			NOT = {	religion = pirate_doctrine }
+		}		
+	}
+}
+
+song = {
+	name = "110_Molgera.ogg"
+	song_name = "Molgera - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	religion = pirate_doctrine }
+			NOT = {	religion = darknut_doctrine }
+		}		
+	}
+}
+
+song = {
+	name = "112_Hero_of_the_Wind.ogg"
+	song_name = "Hero of the Wind - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+			NOT = {	religion = pirate_doctrine }
+			NOT = {	religion_group = goddesses_religion }
+			NOT = {	culture_group = hylian_group }
+		}		
+	}
+}
+
+song = {
+	name = "127_Ganondorf_Battle.ogg"
+	song_name = "Ganondorf Battle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "128_Farewell_Hyrule_King.ogg"
+	song_name = "Farewell Hyrule King - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	religion_group = goddesses_religion }
+			NOT = {	culture_group = hylian_group }
+		}		
+	}
+}
+
+song = {
+	name = "130_Staff_Credits.ogg"
+	song_name = "The Wind Waker Staff Credits - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+			NOT = {	religion = pirate_doctrine }
+		}		
+	}
+}
+
+song = {
+	name = "130_Staff_Credits_Redux.ogg"
+	song_name = "The Wind Waker Staff Credits Redux - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+			NOT = {	religion = pirate_doctrine }
+		}		
+	}
+}
+
+song = {
+	name = "130_Staff_Credits_Redux_Soundscape.ogg"
+	song_name = "The Wind Waker Staff Credits Redux Soundscape - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hoho }
+			NOT = {	culture = port_towner }
+			NOT = {	religion = wind_spirits_reformed }
+			NOT = {	religion = wind_spirits }
+			NOT = {	religion = twin_frogs }
+			NOT = {	religion = oshus_religion }
+			NOT = {	religion = wind_fish_religion }
+			NOT = {	religion = pirate_doctrine }
+		}		
+	}
+}

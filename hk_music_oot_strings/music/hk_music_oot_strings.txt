@@ -1,0 +1,185 @@
+
+song = {
+	name = "0-The Legend of Zelda Medly.ogg"
+	song_name = "The Legend of Zelda Medly - Hyrule Symphony"
+	
+	chance = {
+		factor = 1 
+	}
+}
+
+
+
+song = {
+	name = "0-Title.ogg"
+	song_name = "Ocarina of Time Title - Hyrule Symphony"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { religion_group = goddesses_religion }
+		}		
+	}
+}
+
+
+
+song = {
+	name = "0-Ocarina Medley.ogg"
+	song_name = "Ocarina Medley - Hyrule Symphony"
+	
+	chance = {
+		factor = 1 
+		modifier = {
+			factor = 0
+			NOT = { religion_group = goddesses_religion }
+			NOT = { religion_group = guardian_deity }
+			NOT = { religion_group = minor_deity }
+		}	
+	}
+}
+
+
+
+song = {
+	name = "0-Gerudo Valley.ogg"
+	song_name = "Gerudo Valley - Hyrule Symphony"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = { culture = gerudo }
+			NOT = { culture = zuna }
+		}	
+	}
+}
+
+song = {
+	name = "0-Ganondorf.ogg"
+	song_name = "Ganondorf's Theme - Hyrule Symphony"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = { culture = gerudo }
+			NOT = { religion_group = demon_religion }
+		}	
+	}
+}
+
+song = {
+	name = "0-Hyrule Field.ogg"
+	song_name = "Hyrule Field - Hyrule Symphony"
+	
+	chance = {
+		factor = 1 
+	}
+}
+
+song = {
+	name = "0-Kakariko Village.ogg"
+	song_name = "Kakariko Village - Hyrule Symphony"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = eldin }
+			NOT = {	culture = hyrulean }
+			NOT = {	culture = sheikah }
+			NOT = { religion = light_spirits }
+		}	
+	}
+}
+
+song = {
+	name = "0-Hyrule Castle.ogg"
+	song_name = "Hyrule Castle Town - Hyrule Symphony"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = { culture_group = hylian_group }
+		}
+	}
+}
+
+song = {
+	name = "0-Death Mountain.ogg"
+	song_name = "Death Mountain - Hyrule Symphony"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = { culture_group = goron_group }
+		}
+	}
+}
+
+song = {
+	name = "0-Kokiri Forest.ogg"
+	song_name = "Kokiri Forest - Hyrule Symphony"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = { culture = kokiri }
+			NOT = { culture = deku_tree }
+			#NOT = { culture = korok }
+		}
+	}
+}
+
+song = {
+	name = "0-Lon Lon Ranch.ogg"
+	song_name = "Lon Lon Ranch - Hyrule Symphony"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = { dynasty = 40 }
+			NOT = {	culture = ordonion }
+		}
+	}
+}
+
+song = {
+	name = "0-Princess Zelda.ogg"
+	song_name = "Princess Zelda - Hyrule Symphony"
+	
+	chance = {
+		factor = 1 
+		modifier = {
+			factor = 0
+			NOT = { religion_group = goddesses_religion }
+			NOT = { dynasty = 1 }
+		}
+	}
+}
+
+song = {
+	name = "0-Zoras Domain.ogg"
+	song_name = "Zora's Domain - Hyrule Symphony"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = { religion = water_spirit }
+			NOT = { religion = jabu_jabu }
+			NOT = { religion = jabun_religion }
+			NOT = { culture = lake_zora }
+			NOT = { culture = sea_zora }
+		}
+	}
+}

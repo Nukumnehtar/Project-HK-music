@@ -1,0 +1,149 @@
+
+song = {
+	name = "ST_Title_Theme.ogg"
+	song_name = "Spirit Tracks Title Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = spirit_continent }
+		}		
+	}
+}
+
+song = {
+	name = "ST_Aboda_Village_Outside.ogg"
+	song_name = "Aboda Village Outside - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = spirit_continent }
+		}		
+	}
+}
+
+song = {
+	name = "ST_Castle_Town.ogg"
+	song_name = "Spirit Tracks Castle Town - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = spirit_continent }
+		}			
+	}
+}
+
+song = {
+	name = "ST_In_the_Fields.ogg"
+	song_name = "In the Fields - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = spirit_continent }
+		}			
+	}
+}
+
+song = {
+	name = "ST_Tower_of_Spirits_Dungeon.ogg"
+	song_name = "Tower of Spirits Dungeon - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = spirit_continent }
+		}			
+	}
+}
+
+song = {
+	name = "ST_Byrne.ogg"
+	song_name = "Byrne - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = spirit_continent }
+		}			
+	}
+}
+
+song = {
+	name = "ST_Lokomo's_Farewell.ogg"
+	song_name = "Lokomo's Farewell - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = spirit_continent }
+		}			
+	}
+}
+
+song = {
+	name = "ST_Lokomo's_Farewell.ogg"
+	song_name = "Lokomo's Farewell - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = spirit_continent }
+		}			
+	}
+}
+
+song = {
+	name = "ST_Spirit_Tracks_Trailer.ogg"
+	song_name = "Spirit Tracks Trailer - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = spirit_continent }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+			NOT = {	culture = gem_lander }
+			NOT = {	religion = heavenly_goddesses }
+			NOT = {	religion = gem_goddesses }
+		}			
+	}
+}
+
+song = {
+	name = "ST_Spirit_Tracks_Trailer_Soundscape.ogg"
+	song_name = "Spirit Tracks Trailer Soundscape - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = spirit_continent }
+		}			
+	}
+}
+
+song = {
+	name = "ST_Spirit_Tracks_Trailer_Soundscape_Redux.ogg"
+	song_name = "Spirit Tracks Trailer Soundscape Redux - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = spirit_continent }
+		}			
+	}
+}
+

@@ -1,0 +1,166 @@
+
+song = {
+	name = "LA_Mabe_Village.ogg"
+	song_name = "Mabe Village - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = { culture = koholinter }
+			NOT = { religion = wind_fish_religion }
+		}	
+	}
+}
+
+
+
+song = {
+	name = "LA_Mysterious_Woods.ogg"
+	song_name = "Mysterious Woods - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = { culture = koholinter }
+			NOT = { religion = great_deku }
+			NOT = { religion = great_maku }
+			NOT = { religion = seasons_religion }
+			NOT = { religion = oracles_religion }
+			NOT = { religion = tuni_nut }
+			NOT = { religion = wind_fish_religion }
+			NOT = { religion = baga_tree }
+		}		
+	}
+}
+
+
+
+song = {
+	name = "LA_Overworld.ogg"
+	song_name = "Link's Awakening Overworld Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 1
+			NOT = { culture = koholinter }
+			NOT = { religion = wind_fish_religion }
+		}	
+	}
+
+}
+
+
+
+song = {
+	name = "LA_Tal_Tal_Mountain_Range.ogg"
+	song_name = "Tal Ta Mountain Range - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = { culture = koholinter }
+			NOT = { religion = wind_fish_religion }
+		}		
+	}
+}
+
+song = {
+	name = "OoA_Nayru's_Song.ogg"
+	song_name = "Nayru's Song - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+		modifier = {
+			factor = 0
+			NOT = { religion_group = goddesses_religion }
+			NOT = { religion = great_maku }
+			NOT = { religion = seasons_religion }
+			NOT = { religion = oracles_religion }
+			NOT = { religion = tuni_nut }
+			NOT = { culture = labrynnan }
+			NOT = { culture = horon }
+			NOT = { culture = falsian }
+		}	
+	}
+}
+
+song = {
+	name = "OoA_OoS_Syrup_the_Witch.ogg"
+	song_name = "Syrup the Witch - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 1
+			NOT = { religion = great_maku }
+			NOT = { religion = seasons_religion }
+			NOT = { religion = oracles_religion }
+			NOT = { religion = tuni_nut }
+			NOT = { culture = labrynnan }
+			NOT = { culture = horon }
+			NOT = { culture = falsian }
+		}	
+	}
+}
+
+song = {
+	name = "OoA_OoS_Title_Theme.ogg"
+	song_name = "Oracle Series Title Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 1
+			NOT = { religion = great_maku }
+			NOT = { religion = seasons_religion }
+			NOT = { religion = oracles_religion }
+			NOT = { religion = tuni_nut }
+			NOT = { culture = labrynnan }
+			NOT = { culture = horon }
+			NOT = { culture = falsian }
+		}	
+	}
+}
+
+song = {
+	name = "OoS_Dancing_Dragon_Dungeon.ogg"
+	song_name = "Dancing Dragon Dungeon - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = { religion = great_maku }
+			NOT = { religion = seasons_religion }
+			NOT = { religion = oracles_religion }
+			NOT = { religion = tuni_nut }
+			NOT = { culture = labrynnan }
+			NOT = { culture = horon }
+			NOT = { culture = falsian }
+			NOT = { culture_group = goron_group }
+		}
+	}
+}
+
+song = {
+	name = "OoS_Sunken_City.ogg"
+	song_name = "Sunken City - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = { religion = great_maku }
+			NOT = { religion = seasons_religion }
+			NOT = { religion = oracles_religion }
+			NOT = { religion = tuni_nut }
+			NOT = { culture = labrynnan }
+			NOT = { culture = horon }
+			NOT = { culture = falsian }
+		}
+	}
+}

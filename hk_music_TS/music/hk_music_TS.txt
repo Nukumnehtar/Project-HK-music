@@ -1,0 +1,853 @@
+
+song = {
+	name = "101_-_Overture.ogg"
+	song_name = "Overture - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = twili }
+			NOT = {	culture = sheikah }
+		}		
+	}
+}
+
+song = {
+	name = "102_-_Back_from_the_Spring.ogg"
+	song_name = "Back from the Spring - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = ordonion }
+			NOT = {	culture = eldin }
+			NOT = {	culture = great_fairy }
+			NOT = { religion = light_spirits }
+			NOT = { religion_group = goddesses_religion }
+		}		
+	}
+}
+
+song = {
+	name = "103_-_Ordon_Village.ogg"
+	song_name = "Ordon Village - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 40 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = ordonion }
+		}		
+	}
+}
+
+song = {
+	name = "104_-_Ordon_Ranch.ogg"
+	song_name = "Ordon Ranch - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 40 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = ordonion }
+		}		
+	}
+}
+
+song = {
+	name = "105_-_Into_the_Twilight.ogg"
+	song_name = "Into the Twilight - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = twili }
+			NOT = {	culture = sheikah }
+		}		
+	}
+}
+
+song = {
+	name = "106_-_Midna.ogg"
+	song_name = "Midna - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = twili }
+		}		
+	}
+}
+
+song = {
+	name = "107_-_Hyrule_Castle_Overtaken.ogg"
+	song_name = "Hyrule Castle Overtaken - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture_group = hylian_group }
+			NOT = {	religion_group = goddesses_religion }
+		}		
+	}
+}
+
+song = {
+	name = "108_-_Light_Spirit's_Message.ogg"
+	song_name = "Light Spirit's Message - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = twili }
+			NOT = {	culture = great_fairy }
+			NOT = { religion = light_spirits }
+			NOT = { religion_group = goddesses_religion }
+		}		
+	}
+}
+
+song = {
+	name = "109_-_Faron_Woods.ogg"
+	song_name = "Faron Woods - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = kokiri }
+			NOT = {	culture = ordonion }
+			NOT = {	culture = skull_kid }
+			NOT = {	culture = deku_scrub }
+			#NOT = {	culture = korok }
+			NOT = {	culture = deku_tree }
+			NOT = {	religion = great_deku }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}
+}
+
+song = {
+	name = "110_-_Ook_and_the_Boomerang.ogg"
+	song_name = "Ook and the Boomerang - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = skull_kid }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = girrin }
+			NOT = {	culture = yamatamian }
+		}
+}
+
+song = {
+	name = "111_-_Twilit_Parasite_Diababa.ogg"
+	song_name = "Twilit Parasite Diababa - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2 
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = skull_kid }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = girrin }
+			NOT = {	culture = yamatamian }
+		}
+}
+
+song = {
+	name = "112_-_Hyrule_Field.ogg"
+	song_name = "Hyrule Field - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+	}
+}
+
+song = {
+	name = "113_-_Kakariko_Village.ogg"
+	song_name = "Kakariko Village - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	culture = eldin }
+			NOT = {	culture = hyrulean }
+			NOT = {	culture = sheikah }
+			NOT = { religion = light_spirits }
+		}
+	}
+}
+
+song = {
+	name = "114_-_Colin's_Kidnapping_and_the_Battle_of_Eldin_Bridge.ogg"
+	song_name = "Colin's Kidnapping and the Battle of Eldin Bridge - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+	}
+}
+
+song = {
+	name = "115_-_Death_Mountain.ogg"
+	song_name = "Death Mountain - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = { culture_group = goron_group }
+		}
+	}
+}
+
+song = {
+	name = "116_-_Goron_Guardian_Dangoro.ogg"
+	song_name = "Goron Guardian Dangoro - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1
+			NOT = { culture_group = goron_group }
+		}
+	}
+}
+
+song = {
+	name = "117_-_History_of_Light_and_Shadow.ogg"
+	song_name = "History of Light and Shadow - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = twili }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = great_fairy }
+			NOT = { religion = light_spirits }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "201_-_Lake_Hylia.ogg"
+	song_name = "Lake Hylia - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = lake_zora }
+			NOT = {	culture = sea_zora }
+			NOT = {	culture = great_fairy }
+			NOT = { religion = light_spirits }
+			NOT = { religion = golden_goddesses }
+			NOT = { religion = hylia_religion }
+		}	
+	}
+}
+
+song = {
+	name = "202_-_Hyrule_Castle_Town.ogg"
+	song_name = "Hyrule Castle Town - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = hyrulean }
+			#NOT = {	culture = lanayruan }
+			NOT = { religion = golden_goddesses }
+			NOT = { religion = hylia_religion }
+		}	
+	}
+}
+
+song = {
+	name = "203_-_Rutela's_Wish.ogg"
+	song_name = "Rutela's Wish - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	culture = lake_zora }
+			NOT = {	culture = sea_zora }
+			NOT = { religion = water_spirit }
+			NOT = { religion = jabu_jabu }
+			NOT = { religion = jabun_religion }
+		}	
+	}
+}
+
+song = {
+	name = "204_-_Ralis,_Prince_of_the_Zoras.ogg"
+	song_name = "Ralis, Prince of the Zoras - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	culture = lake_zora }
+			NOT = {	culture = sea_zora }
+			NOT = { religion = water_spirit }
+			NOT = { religion = jabu_jabu }
+			NOT = { religion = jabun_religion }
+		}	
+	}
+}
+
+song = {
+	name = "205_-_King_of_Shadows.ogg"
+	song_name = "King of Shadows - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = twili }
+			NOT = {	culture = sheikah }
+			NOT = { religion_group = demon_religion }
+		}	
+	}
+}
+
+song = {
+	name = "206_-_Midna's_Lament.ogg"
+	song_name = "Midna's Lament - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = twili }
+		}	
+	}
+}
+
+song = {
+	name = "207_-_Princess_Zelda.ogg"
+	song_name = "Princess Zelda - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture_group = hylian_group }
+			NOT = {	culture = sheikah }
+			NOT = { religion = golden_goddesses }
+			NOT = { religion = hylia_religion }
+		}	
+	}
+}
+
+song = {
+	name = "208_-_Sacred_Grove.ogg"
+	song_name = "Sacred Grove - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = kokiri }
+			NOT = {	culture = skull_kid }
+			#NOT = {	culture = korok }
+			NOT = {	culture = deku_tree }
+		}
+	}
+}
+
+song = {
+	name = "209_-_Intermezzo.ogg"
+	song_name = "Intermezzo - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = twili }
+			NOT = {	culture = sheikah }
+		}
+	}
+}
+
+song = {
+	name = "210_-_Hyrule_Field_at_Night.ogg"
+	song_name = "Hyrule Field at Night - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+	}
+}
+
+song = {
+	name = "211_-_Waltz_of_the_Bugs.ogg"
+	song_name = "Waltz of the Bugs - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0 
+			NOT = {	culture = great_fairy }
+			NOT = {	culture_group = hylian_group }
+			NOT = {	culture_group = round_eared }
+		}
+	}
+}
+
+song = {
+	name = "212_-_Hyrulean_Odd_Jobs.ogg"
+	song_name = "Hyrulean Odd Jobs - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = hylian_group }
+			NOT = {	culture_group = round_eared }
+		}
+	}
+}
+
+song = {
+	name = "213_-_Fishing_Hole.ogg"
+	song_name = "Fishing Hole - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0 
+			NOT = {	culture = lake_zora }
+			NOT = {	culture = sea_zora }
+			NOT = {	culture_group = hylian_group }
+			NOT = {	culture_group = round_eared }
+		}
+	}
+}
+
+song = {
+	name = "214_-_Gerudo_Desert.ogg"
+	song_name = "Gerudo Desert - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = gerudo }
+			NOT = {	culture = zuna }
+			NOT = {	culture = cobble }
+			NOT = {	culture_group = blin }
+			NOT = {	culture_group = lfos }
+			NOT = {	culture_group = undead }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}
+	}
+}
+
+song = {
+	name = "215_-_Arbiter's_Grounds.ogg"
+	song_name = "Arbiter's Grounds - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1 
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = gerudo }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = twili }
+			NOT = {	culture = darknut }
+			NOT = {	culture_group = undead }
+			NOT = {	religion = sheikahism }
+			NOT = {	religion = sheikahism_nihalism }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "216_-_Twilit_Fossil_Stallord.ogg"
+	song_name = "Twilit Fossil Stallord - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1 
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = gerudo }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = twili }
+			NOT = {	culture = darknut }
+			NOT = {	culture_group = undead }
+			NOT = {	religion = sheikahism }
+			NOT = {	religion = sheikahism_nihalism }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "217_-_Ganondorf's_Exile.ogg"
+	song_name = "Ganondorf's Exile - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1 
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = gerudo }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = twili }
+			NOT = {	culture_group = undead }
+			NOT = {	religion = sheikahism }
+			NOT = {	religion = sheikahism_nihalism }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "301_-_Snowpeak_Ruins.ogg"
+	song_name = "Snowpeak Ruins - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	is_winter = yes }  # winter
+			NOT = {	culture = anouki }
+			NOT = {	culture = yeti }
+			NOT = {	culture = yook }
+			NOT = {	culture = frozen_isle }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = twili }
+			NOT = {	culture = darknut }
+			NOT = {	culture_group = undead }
+			NOT = {	religion = sheikahism }
+			NOT = {	religion = sheikahism_nihalism }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "302_-_Twilit_Ice_Mass_Blizzeta.ogg"
+	song_name = "Twilit Ice Mass Blizzeta - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	is_winter = yes }  # winter
+			NOT = {	culture = anouki }
+			NOT = {	culture = yeti }
+			NOT = {	culture = yook }
+			NOT = {	culture = frozen_isle }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = darknut }
+			NOT = {	culture_group = undead }
+			NOT = {	religion = sheikahism }
+			NOT = {	religion = sheikahism_nihalism }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "303_-_Snowboarding.ogg"
+	song_name = "Snowboarding - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	is_winter = yes }  # winter
+			NOT = {	culture = anouki }
+			NOT = {	culture = yeti }
+			NOT = {	culture = yook }
+			NOT = {	culture = frozen_isle }
+		}
+	}
+}
+
+song = {
+	name = "304_-_A_Door_to_the_Past.ogg"
+	song_name = "A Door to the Past - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = golden_goddesses }
+			NOT = {	religion = hylia_religion }
+			NOT = {	religion = sheikahism }
+			NOT = {	culture = twili }
+			NOT = {	culture = darknut }
+		}
+	}
+}
+
+song = {
+	name = "305_-_Ooccoo,_Fellow_Adventurer.ogg"
+	song_name = "Ooccoo, Fellow Adventurer - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = skylofter }
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture_group = avian_group }
+		}
+	}
+}
+
+song = {
+	name = "306_-_Twilit_Arachnid_Armogohma.ogg"
+	song_name = "Twilit Arachnid Armogohma - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+	}
+}
+
+song = {
+	name = "307_-_Hidden_Village.ogg"
+	song_name = "Hidden Village - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = gerudo }
+			NOT = {	culture = sheikah }
+			NOT = {	culture_group = blin }
+			NOT = {	religion = sheikahism }
+			NOT = {	religion = sheikahism_nihalism }
+		}
+	}
+}
+
+song = {
+	name = "308_-_Ilia.ogg"
+	song_name = "Ilia - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = ordonion }
+		}
+	}
+}
+
+song = {
+	name = "309_-_Twilit_Dragon_Argorok.ogg"
+	song_name = "Twilit Dragon Argorok - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = skylofter }
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture_group = avian_group }
+			NOT = {	culture = aeralfos }
+		}
+	}
+}
+
+song = {
+	name = "310_-_The_Twilight_Realm.ogg"
+	song_name = "The Twilight Realm - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = gerudo }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = twili }
+			NOT = {	religion = sheikahism }
+			NOT = {	religion = sheikahism_nihalism }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "311_-_Ursurper_King_Zant.ogg"
+	song_name = "Ursurper King Zant - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = twili }
+			NOT = {	religion = sheikahism }
+			NOT = {	religion = sheikahism_nihalism }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "312_-_Hyrule_Castle.ogg"
+	song_name = "Hyrule Castle - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = darknut }
+			NOT = {	culture_group = hylian_group }
+			NOT = {	religion_group = goddesses_religion }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "313_-_Throne_of_the_Demon_Thief.ogg"
+	song_name = "Throne of the Demon Thief - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = twili }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "314_-_Blood,_Spirit,_&_Hatred.ogg"
+	song_name = "Blood, Spirit, & Hatred - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = twili }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "315_-_Dark_Lord_Ganondorf.ogg"
+	song_name = "Dark Lord Ganondorf - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = twili }
+			NOT = { religion_group = demon_religion }
+		}
+	}
+}
+
+song = {
+	name = "316_-_End_Credits,_Part_I.ogg"
+	song_name = "End Credits, Part I - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = twili }
+		}
+	}
+}
+
+song = {
+	name = "316_-_End_Credits,_Part_II.ogg"
+	song_name = "End Credits, Part II - Twilight Symphony - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = twili }
+		}
+	}
+}
+

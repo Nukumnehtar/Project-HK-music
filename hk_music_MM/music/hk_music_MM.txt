@@ -1,0 +1,595 @@
+
+song = {
+	name = "01_Title_Demo.ogg"
+	song_name = "Majora's Mask Title Demo - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	culture = skull_kid }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = majora_religion }
+			NOT = {	religion = goddess_of_time }
+			NOT = {	religion = wizzrobe_doctrine }
+		}				
+	}
+}
+
+song = {
+	name = "02_Opening_Demo.ogg"
+	song_name = "Majora's Mask Opening Demo - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	culture = skull_kid }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = majora_religion }
+			NOT = {	religion = goddess_of_time }
+			NOT = {	religion = wizzrobe_doctrine }
+		}				
+	}
+}
+
+song = {
+	name = "06_Clock_Tower.ogg"
+	song_name = "Clock Tower - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = goddess_of_time }
+			NOT = {	religion = wizzrobe_doctrine }
+			NOT = {	religion_group = goddesses_religion }
+		}			
+	}
+}
+
+song = {
+	name = "08_Clock_Town_-_Day_1.ogg"
+	song_name = "Clock Town - Day 1 - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = goddess_of_time }
+			NOT = {	religion = wizzrobe_doctrine }
+		}				
+	}
+}
+
+song = {
+	name = "08_Clock_Town_-_Day_1_Redux.ogg"
+	song_name = "Clock Town - Day 1 Redux - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = goddess_of_time }
+			NOT = {	religion = wizzrobe_doctrine }
+		}				
+	}
+}
+
+song = {
+	name = "10_Mayor's_House_Council_Room.ogg"
+	song_name = "Mayor's House Council Room - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "10_Mayor's_House_Council_Room_Redux.ogg"
+	song_name = "Mayor's House Council Room Redux - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "11_Milk_Bar.ogg"
+	song_name = "Milk Bar - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	dynasty = 40 }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = goddess_of_time }
+		}				
+	}
+}
+
+song = {
+	name = "13_Clock_Town_-_Day_2.ogg"
+	song_name = "Clock Town - Day 2 - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = goddess_of_time }
+			NOT = {	religion = wizzrobe_doctrine }
+		}				
+	}
+}
+
+song = {
+	name = "13_Clock_Town_-_Day_2_Redux.ogg"
+	song_name = "Clock Town - Day 2 Redux - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = goddess_of_time }
+			NOT = {	religion = wizzrobe_doctrine }
+		}				
+	}
+}
+
+song = {
+	name = "19_Clock_Town_-_Day_3.ogg"
+	song_name = "Clock Town - Day 3 - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = majora_religion }
+			NOT = {	religion = goddess_of_time }
+			NOT = {	religion = wizzrobe_doctrine }
+		}				
+	}
+}
+
+song = {
+	name = "22_Dancer.ogg"
+	song_name = "Dancer - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	culture = skull_kid }
+			NOT = {	culture = gerudo }
+			NOT = {	culture = darknut }
+			NOT = {	culture = zuna }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = majora_religion }
+			NOT = {	religion = goddess_of_time }
+		}				
+	}
+}
+
+song = {
+	name = "24_The_Final_Hour.ogg"
+	song_name = "The Final Hour - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "25_Astral_Observatory.ogg"
+	song_name = "Astral Observatory - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	culture = lake_zora }
+			NOT = {	culture = sea_zora }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = goddess_of_time }
+			NOT = {	religion = wizzrobe_doctrine }
+			NOT = {	religion_group = goddesses_religion }
+		}			
+	}
+}
+
+song = {
+	name = "29_Song_of_Healing.ogg"
+	song_name = "Song of Healing - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = goddess_of_time }
+			NOT = {	religion = wizzrobe_doctrine }
+			NOT = {	religion_group = goddesses_religion }
+		}			
+	}
+}
+
+song = {
+	name = "30_Goron_Race.ogg"
+	song_name = "Goron Race - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = goron_group }
+		}			
+	}
+}
+
+song = {
+	name = "31_Get_Mask.ogg"
+	song_name = "Get Mask - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1		
+	}
+}
+
+song = {
+	name = "34_Termina_Field.ogg"
+	song_name = "Termina Field - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 1
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	culture = skull_kid }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = majora_religion }
+			NOT = {	religion = goddess_of_time }
+		}		
+	}
+}
+
+song = {
+	name = "41_Marsh_Land.ogg"
+	song_name = "Marsh Land - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	culture = skull_kid }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+			NOT = {	dynasty = 14601 }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = majora_religion }
+			NOT = {	religion = goddess_of_time }
+		}		
+	}
+}
+
+song = {
+	name = "41_Marsh_Land.ogg"
+	song_name = "Marsh Land - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	culture = skull_kid }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = majora_religion }
+			NOT = {	religion = goddess_of_time }
+		}		
+	}
+}
+
+song = {
+	name = "44_Jungle_Cruise.ogg"
+	song_name = "Jungle Cruise - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = yamatamian }
+			NOT = {	culture = gem_lander }
+		}		
+	}
+}
+
+song = {
+	name = "45_Deku_Palace.ogg"
+	song_name = "Deku Palace - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			NOT = {	culture = deku_scrub }
+		}		
+	}
+}
+
+song = {
+	name = "52_Middle_Boss_Battle.ogg"
+	song_name = "Majora's Mask Mid-Boss Battle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "55_Breman_Mask.ogg"
+	song_name = "Breman Mask - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2	
+		modifier = {
+			factor = 0
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	culture = falsian }
+			NOT = {	culture = horon }
+			NOT = {	culture = labrynnan }
+			NOT = {	dynasty = 40 }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = goddess_of_time }
+			NOT = {	religion = wind_fish_religion }
+		}		
+	}
+}
+
+song = {
+	name = "07_Boss_Battle.ogg"
+	song_name = "Majora's Mask Boss Battle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "21_Great_Bay_Coast.ogg"
+	song_name = "Great Bay Coast - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	culture_group = aquatic_group }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = goddess_of_time }
+			NOT = {	religion = majora_religion }
+			NOT = {	religion = wind_fish_religion }
+		}		
+	}
+}
+
+song = {
+	name = "24_Pirates'_Fortress.ogg"
+	song_name = "Pirates' Fortress - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = gerudo }
+			NOT = {	culture_group = blin }
+			NOT = {	culture_group = lfos }
+			NOT = {	religion_group = doctrine }
+			NOT = {	religion = majora_religion }
+		}		
+	}
+}
+
+song = {
+	name = "24_Pirates'_Fortress_Redux.ogg"
+	song_name = "Pirates' Fortress Redux - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = gerudo }
+			NOT = {	culture_group = blin }
+			NOT = {	culture_group = lfos }
+			NOT = {	religion_group = doctrine }
+			NOT = {	religion = majora_religion }
+		}		
+	}
+}
+
+song = {
+	name = "32_New_Wave_Bossa_Nova.ogg"
+	song_name = "New Wave Bossa Nova - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = lake_zora }
+			NOT = {	culture = sea_zora }
+			NOT = {	religion = wind_fish_religion }
+		}		
+	}
+}
+
+song = {
+	name = "36_Ikana_Valley.ogg"
+	song_name = "Ikana Valley - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sheikah }
+			NOT = {	culture = gerudo }
+			NOT = {	culture = darknut }
+			NOT = {	culture = garo }
+			NOT = {	culture = zuna }
+			NOT = {	culture = cobble }
+			NOT = {	culture = undead_ikanan }
+			NOT = {	culture = ikanan }
+			NOT = {	culture_group = undead }
+		}		
+	}
+}
+
+song = {
+	name = "40_Ikana's_Ancient_Castle.ogg"
+	song_name = "Ikana's Ancient Castle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sheikah }
+			NOT = {	culture = gerudo }
+			NOT = {	culture = darknut }
+			NOT = {	culture = garo }
+			NOT = {	culture = zuna }
+			NOT = {	culture = cobble }
+			NOT = {	culture = undead_ikanan }
+			NOT = {	culture = ikanan }
+			NOT = {	culture_group = undead }
+		}		
+	}
+}
+
+song = {
+	name = "42_Elegy_of_Emptiness.ogg"
+	song_name = "Elegy of Emptiness - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sheikah }
+			NOT = {	culture = gerudo }
+			NOT = {	culture = darknut }
+			NOT = {	culture = garo }
+			NOT = {	culture = zuna }
+			NOT = {	culture = cobble }
+			NOT = {	culture = undead_ikanan }
+			NOT = {	culture = ikanan }
+			NOT = {	culture_group = undead }
+			NOT = {	dynasty = 14601 }
+		}		
+	}
+}
+
+song = {
+	name = "44_Stone_Tower_Temple.ogg"
+	song_name = "Stone Tower Temple - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sheikah }
+			NOT = {	culture = gerudo }
+			NOT = {	culture = darknut }
+			NOT = {	culture = garo }
+			NOT = {	culture = zuna }
+			NOT = {	culture = cobble }
+			NOT = {	culture = undead_ikanan }
+			NOT = {	culture = ikanan }
+			NOT = {	culture_group = undead }
+		}		
+	}
+}
+
+song = {
+	name = "45_Calling_the_Four_Giants.ogg"
+	song_name = "Calling the Four Giants - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = goddess_of_time }
+			NOT = {	religion = majora_religion }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = ikanan }
+			NOT = {	dynasty = 14601 }
+		}		
+	}
+}
+
+song = {
+	name = "46_Tatl_and_Tael_Reunite.ogg"
+	song_name = "Tatl and Tael Reunite - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			#NOT = {	culture = terminan }
+			#NOT = {	culture = comenian }
+			NOT = {	culture = skull_kid }
+			NOT = {	culture = great_fairy }
+			NOT = {	religion = fierce_deity }
+			NOT = {	religion = goddess_of_time }
+			NOT = {	dynasty = 14601 }
+		}		
+	}
+}

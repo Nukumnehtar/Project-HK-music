@@ -1,0 +1,215 @@
+
+song = {
+	name = "ALttP_Intro_Theme.ogg"
+	song_name = "A Link to the Past Intro Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "ALttP_Opening_Demo.ogg"
+	song_name = "A Link to the Past Opening Demo - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "ALttP_Rain_Scene.ogg"
+	song_name = "Rain Scene - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "ALttP_Hyrule_Castle.ogg"
+	song_name = "Hyrule Castle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = { culture_group = hylian_group }
+			NOT = { culture = hytopian }
+			NOT = { culture = sheikah }
+			NOT = { culture = wind_tribe }
+			NOT = { culture = new_hyrulean }
+			NOT = { culture = wizzrobe }
+		}	
+	}
+}
+
+song = {
+	name = "ALttP_Zelda's_Rescue.ogg"
+	song_name = "Zelda's Rescue - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+		modifier = {
+			factor = 0
+			NOT = { religion_group = goddesses_religion }
+			NOT = { dynasty = 1 }
+		}
+	}
+}
+
+song = {
+	name = "ALttP_Sanctuary.ogg"
+	song_name = "Sanctuary - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+		modifier = {
+			factor = 0
+			NOT = { religion_group = goddesses_religion }
+		}
+	}
+}
+
+song = {
+	name = "ALttP_Light_World_Overworld.ogg"
+	song_name = "Light World Overworld - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+	}
+}
+
+song = {
+	name = "ALttP_Light_World_Overworld_Redux.ogg"
+	song_name = "Light World Overworld Redux - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+	}
+}
+
+song = {
+	name = "ALttP_Kakariko_Village.ogg"
+	song_name = "A Link to the Past Kakariko Village - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+		modifier = {
+			factor = 0
+			NOT = { religion_group = goddesses_religion }
+		}
+	}
+}
+
+song = {
+	name = "ALttP_Cave.ogg"
+	song_name = "Cave - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+	}
+}
+
+song = {
+	name = "ALttP_Light_World_Dungeon.ogg"
+	song_name = "Light World Dungeon - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+	}
+}
+
+song = {
+	name = "ALttP_Boss_Battle.ogg"
+	song_name = "A Link to the Past Boss Battle - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+	}
+}
+
+song = {
+	name = "ALttP_Lost_Woods.ogg"
+	song_name = "A Link to the Past Lost Woods - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+	}
+}
+
+song = {
+	name = "ALttP_Dark_World_Overworld.ogg"
+	song_name = "Dark World Overworld - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+	}
+}
+
+song = {
+	name = "ALttP_Dark_World_Overworld.ogg"
+	song_name = "Dark World Overworld - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+	}
+}
+
+song = {
+	name = "ALttP_Dark_World_Dungeon.ogg"
+	song_name = "Dark World Dungeon - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+	}
+}
+
+song = {
+	name = "ALttP_Ending_Theme.ogg"
+	song_name = "A Link to the Past Ending Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+		modifier = {
+			factor = 0
+			NOT = { religion_group = goddesses_religion }
+			NOT = { religion_group = guardian_deity }
+			NOT = { religion_group = minor_deity }
+		}
+	}
+}
+
+song = {
+	name = "ALttP_Ending_Theme_Redux.ogg"
+	song_name = "A Link to the Past Ending Theme Redux - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+		modifier = {
+			factor = 0
+			NOT = { religion_group = goddesses_religion }
+			NOT = { religion_group = guardian_deity }
+			NOT = { religion_group = minor_deity }
+		}
+	}
+}
+
+song = {
+	name = "ALttP_End_Credits.ogg"
+	song_name = "A Link to the Past End Credits - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1 
+		modifier = {
+			factor = 0
+			NOT = { religion_group = goddesses_religion }
+			NOT = { religion_group = guardian_deity }
+			NOT = { religion_group = minor_deity }
+		}
+	}
+}

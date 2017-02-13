@@ -1,0 +1,138 @@
+
+song = {
+	name = "FSA_Frozen_Hyrule.ogg"
+	song_name = "Four Swords Adventure Frozen_Hyrule - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	is_winter = yes }  # winter
+			NOT = {	culture = frozen_isle }
+			NOT = {	culture = anouki }
+			NOT = {	culture = yeti }
+			NOT = {	culture = yook }
+		}		
+	}
+}
+
+song = {
+	name = "MC_Cave.ogg"
+	song_name = "The Minish Cap Cave - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "MC_Cloud_Tops.ogg"
+	song_name = "Cloud Tops - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = {	culture_group = avian_group }
+		}		
+	}
+}
+
+song = {
+	name = "MC_Cucco_Chase.ogg"
+	song_name = "Cucco Chase - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = hylian_group }
+			NOT = {	culture_group = round_eared }
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = sheikah }
+		}		
+	}
+}
+
+song = {
+	name = "MC_Miniboss.ogg"
+	song_name = "The Minish Cap Miniboss Theme - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "MC_Palace_of_Winds.ogg"
+	song_name = "Palace of Winds - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = {	culture_group = avian_group }
+		}		
+	}
+}
+
+song = {
+	name = "MC_Royal_Crypt.ogg"
+	song_name = "Royal Crypt - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = { religion_group = goddesses_religion }
+		}		
+	}
+}
+
+song = {
+	name = "MC_Mt_Crenel.ogg"
+	song_name = "Mt. Crenel - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "MC_Mt_Crenel.ogg"
+	song_name = "Mt. Crenel - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "MC_Temple_of_Droplets.ogg"
+	song_name = "Temple of Droplets - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	is_winter = yes }  # winter
+			NOT = {	culture = frozen_isle }
+			NOT = {	culture = anouki }
+			NOT = {	culture = yeti }
+			NOT = {	culture = yook }
+		}		
+	}
+}
+
+song = {
+	name = "MC_Royal_Valley.ogg"
+	song_name = "Royal Valley - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+	}
+}

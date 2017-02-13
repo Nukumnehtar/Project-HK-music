@@ -1,0 +1,1393 @@
+
+song = {
+	name = "SS_E3_2010_Trailer.ogg"
+	song_name = "Skyward Sword E3 2010 Trailer - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1		
+	}
+}
+
+song = {
+	name = "SS_E3_2010_Demo.ogg"
+	song_name = "Skyward Sword E3 2010 Demo - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0 
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = {	culture_group = avian_group }
+			NOT = { religion_group = goddesses_religion }
+		}		
+	}
+}
+
+song = {
+	name = "SS_Skyview_Temple.ogg"
+	song_name = "Skyview Temple - Zelda Reorchestrated"
+	
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "02 Intro.ogg"
+	song_name = "Skyward Sword Intro - Koji Kondo"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "04 Main Theme.ogg"
+	song_name = "Skyward Sword Main Theme - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = {	culture_group = avian_group }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "07 Link's Nightmare.ogg"
+	song_name = "Link's Nightmare - Koji Kondo"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "11 Skyloft (Variation).ogg"
+	song_name = "Skyloft (Variation) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = {	culture_group = avian_group }
+		}	
+	}
+}
+
+song = {
+	name = "12 Legendary Hero.ogg"
+	song_name = "Legendary Hero - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "13 Meet Zelda.ogg"
+	song_name = "Meet Zelda - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = { religion = golden_goddesses }
+			NOT = { religion = hylia_religion }
+		}	
+	}
+}
+
+song = {
+	name = "19 Groose's Theme.ogg"
+	song_name = "Groose's Theme - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = {	culture_group = avian_group }
+		}	
+	}
+}
+
+song = {
+	name = "27 Link And His Loftwing.ogg"
+	song_name = "Link And His Loftwing - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = {	culture_group = avian_group }
+		}	
+	}
+}
+
+song = {
+	name = "32 Skyfield (Variation).ogg"
+	song_name = "Skyfield (Variation) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = {	culture_group = avian_group }
+		}	
+	}
+}
+
+song = {
+	name = "33 Skyfield #2 (Variation, Battle).ogg"
+	song_name = "Skyfield #2 (Variation, Battle) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = {	culture_group = avian_group }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "48 Fi's Theme.ogg"
+	song_name = "Fi's Theme - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = skylofter }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "50 The Goddess Sword.ogg"
+	song_name = "The Goddess Sword - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = skylofter }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "51 The Goddess Sword (Variation).ogg"
+	song_name = "The Goddess Sword (Variation) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = skylofter }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "58 Goddess Shrine.ogg"
+	song_name = "Goddess Shrine - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = skylofter }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "62 Bazaar (Fortune Teller).ogg"
+	song_name = "Bazaar (Fortune Teller) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = gerudo }
+			NOT = {	culture = zuna }
+			NOT = {	culture = gem_lander }
+			NOT = {	culture = sheikah }
+		}	
+	}
+}
+
+song = {
+	name = "67 Bazaar (Scrap Shop).ogg"
+	song_name = "Bazaar (Scrap Shop) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = goron_group }
+			#NOT = {	culture_group = rosian }
+		}	
+	}
+}
+
+song = {
+	name = "72 Sealed Grounds.ogg"
+	song_name = "Sealed Grounds - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = skull_kid }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = girrin }
+			NOT = {	culture = yamatamian }
+			NOT = {	culture = gem_lander }
+			NOT = {	culture = keaton }
+			#NOT = {	culture_group = feline }
+		}	
+	}
+}
+
+song = {
+	name = "74 Battle (Fight).ogg"
+	song_name = "Skyward Sword Battle (Fight) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = goron_group }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = girrin }
+			NOT = {	culture = yamatamian }
+			NOT = {	culture = gem_lander }
+			NOT = {	culture = keaton }
+			#NOT = {	culture_group = feline }
+		}	
+	}
+}
+
+song = {
+	name = "75 Link's Third Nightmare.ogg"
+	song_name = "Link's Third Nightmare - Koji Kondo"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "77 Sealed Temple.ogg"
+	song_name = Sealed Temple - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = girrin }
+			NOT = {	culture = keaton }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "78 Faron Woods.ogg"
+	song_name = "Skyward Sword Faron Woods - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skull_kid }
+			NOT = {	culture = kokiri }
+			#NOT = {	culture = korok }
+			NOT = {	culture = deku_tree }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = girrin }
+			NOT = {	culture = keaton }
+		}	
+	}
+}
+
+song = {
+	name = "83 Kikwi's Theme.ogg"
+	song_name = "Kikwi's Theme - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = skull_kid }
+			#NOT = {	culture = korok }
+			NOT = {	culture = deku_tree }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = girrin }
+			NOT = {	culture = yamatamian }
+			NOT = {	culture = gem_lander }
+		}	
+	}
+}
+
+song = {
+	name = "85 Lopsa's Theme.ogg"
+	song_name = "Lopsa's Theme - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = skull_kid }
+			#NOT = {	culture = korok }
+			NOT = {	culture = deku_tree }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = girrin }
+			NOT = {	culture = yamatamian }
+			NOT = {	culture = gem_lander }
+		}	
+	}
+}
+
+song = {
+	name = "92 Skyview Temple (Variation 2).ogg"
+	song_name = "Skyview Temple (Variation 2) - Koji Kondo"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "93 Stalfos Battle, Moldarach Rematch Hiding.ogg"
+	song_name = "Stalfos Battle, Moldarach Rematch Hiding - Koji Kondo"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "94 Girahnim's Theme.ogg"
+	song_name = "Girahnim's Theme - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOT = {	culture_group = undead }
+			NOT = {	culture = sheikah }
+			NOT = {	religion_group = demon_group }
+		}	
+	}
+}
+
+song = {
+	name = "96 Girahnim Battle (Phase 1).ogg"
+	song_name = "Girahnim Battle (Phase 1) - Koji Kondo"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "97 First Girahnim Battle (Phase 2).ogg"
+	song_name = "First Girahnim Battle (Phase 2) - Koji Kondo"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "103 Goddess Mission.ogg"
+	song_name = "Goddess Mission - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "104 The Sky Fields Island.ogg"
+	song_name = "The Sky Fields Island - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 40 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = ordonion }
+			NOT = {	culture = skylofter }
+		}	
+	}
+}
+
+song = {
+	name = "105 Lumpy Pumpkin.ogg"
+	song_name = "The Lumpy Pumpkin - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 40 }
+			NOT = {	culture = ordonion }
+			NOT = {	culture = skylofter }
+		}	
+	}
+}
+
+song = {
+	name = "106 Bamboo Isle.ogg"
+	song_name = "Bamboo Isle - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}	
+	}
+}
+
+song = {
+	name = "108 Evil Batreaux.ogg"
+	song_name = "Evil Batreaux - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = arcadian }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}	
+	}
+}
+
+song = {
+	name = "109 Good Batreaux.ogg"
+	song_name = "Good Batreaux - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = arcadian }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}	
+	}
+}
+
+song = {
+	name = "109 Good Batreaux.ogg"
+	song_name = "Good Batreaux - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = arcadian }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}	
+	}
+}
+
+song = {
+	name = "111 Eldin Volcano.ogg"
+	song_name = "Eldin Volcano - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = goron_group }
+			#NOT = {	culture_group = rosian }
+			NOT = {	culture = keaton }
+		}	
+	}
+}
+
+song = {
+	name = "112 Mogma's Theme.ogg"
+	song_name = "Mogma's Theme - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = keaton }
+		}	
+	}
+}
+
+song = {
+	name = "113 Eldin Volcano Cave.ogg"
+	song_name = "Eldin Volcano Cave - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = goron_group }
+			#NOT = {	culture_group = rosian }
+			NOT = {	culture = keaton }
+		}	
+	}
+}
+
+song = {
+	name = "116 Earth Temple Entrance.ogg"
+	song_name = "Earth Temple Entrance - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = gerudo }
+			NOT = {	culture = zuna }
+			NOT = {	culture = sheikah }
+			NOT = {	culture_group = lfos }
+			NOT = {	culture_group = goron_group }
+			#NOT = {	culture_group = rosian }
+			NOT = {	culture = keaton }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+			NOT = {	culture = garo }
+		}	
+	}
+}
+
+song = {
+	name = "117 Earth Temple.ogg"
+	song_name = "Earth Temple - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = gerudo }
+			NOT = {	culture = zuna }
+			NOT = {	culture = sheikah }
+			NOT = {	culture_group = lfos }
+			NOT = {	culture_group = goron_group }
+			#NOT = {	culture_group = rosian }
+			NOT = {	culture = keaton }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+			NOT = {	culture = garo }
+		}	
+	}
+}
+
+song = {
+	name = "119 Lizalfos, Magmanos Battle.ogg"
+	song_name = "Lizalfos, Magmanos Battle - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = gerudo }
+			NOT = {	culture = zuna }
+			NOT = {	culture = sheikah }
+			NOT = {	culture_group = lfos }
+			NOT = {	culture_group = goron_group }
+			#NOT = {	culture_group = rosian }
+			NOT = {	culture = keaton }
+			NOT = {	culture = garo }
+		}	
+	}
+}
+
+song = {
+	name = "123 Girahnim's Second Encounter.ogg"
+	song_name = "Girahnim's Second Encounter - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOT = {	culture_group = undead }
+			NOT = {	culture = sheikah }
+			NOT = {	religion_group = demon_group }
+		}	
+	}
+}
+
+song = {
+	name = "129 Meet Tubert.ogg"
+	song_name = "Meet Tubert - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = keaton }
+		}	
+	}
+}
+
+song = {
+	name = "132 Thrill Digger (Variation).ogg"
+	song_name = "Thrill Digger (Variation) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = keaton }
+		}	
+	}
+}
+
+song = {
+	name = "136 Lanayru Mine, Lanayru Desert, Lanayru Gorge (Timeshift Stone).ogg"
+	song_name = "Lanayru Mine, Lanayru Desert, Lanayru Gorge (Timeshift Stone) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = goron_group }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = garo }
+			NOT = {	culture_group = blin }
+		}	
+	}
+}
+
+song = {
+	name = "138 Lanayru Mining Facility (Timeshift Stone).ogg"
+	song_name = "Lanayru Mining Facility (Timeshift Stone) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = gerudo }
+			NOT = {	culture = zuna }
+			NOT = {	culture_group = undead }
+			NOT = {	culture = sheikah }
+			NOT = {	culture = twili }
+			NOT = {	culture = garo }
+			NOT = {	culture_group = blin }
+		}	
+	}
+}
+
+song = {
+	name = "139 Moldarach.ogg"
+	song_name = "Moldarach - Koji Kondo"
+	
+	chance = {
+		factor = 2
+	}
+}
+
+song = {
+	name = "143 Girahnim Attacks Impa.ogg"
+	song_name = "Girahnim Attacks Impa - Koji Kondo"
+	
+	chance = {
+		factor = 2
+	}
+}
+
+song = {
+	name = "144 Zelda Escapes.ogg"
+	song_name = "Zelda Escapes - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sheikah }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "146 Groose on the Surface.ogg"
+	song_name = "Groose on the Surface - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = {	culture_group = avian_group }
+		}	
+	}
+}
+
+song = {
+	name = "156 The Goddess's Harp (Variation).ogg"
+	song_name = "The Goddess's Harp (Variation) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = skylofter }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "158 Imprisoned Battle.ogg"
+	song_name = "Imprisoned Battle - Koji Kondo"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "160 Imprisoned Battle (Hurry).ogg"
+	song_name = "Imprisoned Battle (Hurry) - Koji Kondo"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "165 Link's Destiny.ogg"
+	song_name = "Link's Destiny - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "181 Silent Realm Guardians.ogg"
+	song_name = "Silent Realm Guardians - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = undead }
+			NOT = {	culture = sheikah }
+			NOT = { religion_group = demon_religion }
+		}	
+	}
+}
+
+song = {
+	name = "185 Inside the Great Tree.ogg"
+	song_name = "Inside the Great Tree - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skull_kid }
+			NOT = {	culture = kokiri }
+			#NOT = {	culture = korok }
+			NOT = {	culture = deku_tree }
+			NOT = {	culture = deku_scrub }
+			NOT = {	culture = girrin }
+			NOT = {	culture = keaton }
+		}		
+	}
+}
+
+song = {
+	name = "188 Lake Floria (Underwater).ogg"
+	song_name = "Lake Floria (Underwater) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sea_zora }
+			NOT = {	culture = lake_zora }
+		}		
+	}
+}
+
+song = {
+	name = "190 Faron's Shrine (Underwater).ogg"
+	song_name = "Faron's Shrine (Underwater) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sea_zora }
+			NOT = {	culture = lake_zora }
+		}		
+	}
+}
+
+song = {
+	name = "193 Dragon Theme.ogg"
+	song_name = "Dragon Theme - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sheikah }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}		
+	}
+}
+
+song = {
+	name = "195 Ancient Cistern.ogg"
+	song_name = "Ancient Cistern - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sheikah }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}		
+	}
+}
+
+song = {
+	name = "197 Ancient Cistern (Underground).ogg"
+	song_name = "Ancient Cistern (Underground) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sheikah }
+			NOT = {	culture_group = undead }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}		
+	}
+}
+
+song = {
+	name = "199 Koloktos Battle (Phase 1).ogg"
+	song_name = "Koloktos Battle (Phase 1) - Koji Kondo"
+	
+	chance = {
+		factor = 2	
+	}
+}
+
+song = {
+	name = "200 Koloktos Battle (Phase 1, Variation).ogg"
+	song_name = "Koloktos Battle (Phase 1, Variation) - Koji Kondo"
+	
+	chance = {
+		factor = 2	
+	}
+}
+
+song = {
+	name = "201 Koloktos Battle (Phase 2).ogg"
+	song_name = "Koloktos Battle (Phase 2) - Koji Kondo"
+	
+	chance = {
+		factor = 2	
+	}
+}
+
+song = {
+	name = "210 Lanayru Harbor, Skipper's Retreat, Shipyard.ogg"
+	song_name = "Lanayru Harbor, Skipper's Retreat, Shipyard - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sheikah }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}	
+	}
+}
+
+song = {
+	name = "212 Lanayru Sand Sea.ogg"
+	song_name = "Lanayru Sand Sea - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sheikah }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}	
+	}
+}
+
+song = {
+	name = "212 Lanayru Sand Sea.ogg"
+	song_name = "Lanayru Sand Sea - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sheikah }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}	
+	}
+}
+
+song = {
+	name = "213 Lanayru Sand Sea (Sailing).ogg"
+	song_name = "Lanayru Sand Sea (Sailing) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sheikah }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}	
+	}
+}
+
+song = {
+	name = "216 Skipper's Retreat Shack, Pirates Stronghold (Exterior).ogg"
+	song_name = "Skipper's Retreat Shack, Pirates Stronghold (Exterior) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sheikah }
+			NOT = {	culture = hanman }
+			NOT = {	culture = hylian_hanman }
+		}	
+	}
+}
+
+song = {
+	name = "219 Minecart Ride.ogg"
+	song_name = "Minecart Ride - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = goron_group }
+		}	
+	}
+}
+
+song = {
+	name = "221 Pirates Stronghold (Interior, Timeshift Stone).ogg"
+	song_name = "Pirates Stronghold (Interior, Timeshift Stone) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sheikah }
+			NOT = {	culture = gem_lander }
+			NOT = {	culture = darknut }
+			NOT = {	religion = darknut_code }
+			NOT = {	religion = pirate_code }
+		}	
+	}
+}
+
+song = {
+	name = "224 Scervo Battle.ogg"
+	song_name = "Scervo Battle - Koji Kondo"
+	
+	chance = {
+		factor = 2
+	}
+}
+
+song = {
+	name = "227 Sandship (Timeshift Stone, Interior).ogg"
+	song_name = "Sandship (Timeshift Stone, Interior) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture = sheikah }
+			NOT = {	culture = gerudo }
+			NOT = {	culture = gem_lander }
+			NOT = {	culture = zuna }
+			NOT = {	culture = darknut }
+			NOT = {	religion = darknut_code }
+			NOT = {	religion = pirate_code }
+		}	
+	}
+}
+
+song = {
+	name = "231 Din's Power.ogg"
+	song_name = "Din's Power - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = goron_group }
+			NOT = {	culture = darknut }
+			NOT = {	religion = darknut_code }
+			NOT = {	religion = pirate_code }
+		}	
+	}
+}
+
+song = {
+	name = "234 Volcano Summit.ogg"
+	song_name = "Volcano Summit - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = goron_group }
+			#NOT = {	culture_group = rosian }
+			NOT = {	culture_group = undead }
+			NOT = {	culture_group = lfos }
+		}	
+	}
+}
+
+song = {
+	name = "238 Fire Sanctuary (Variation).ogg"
+	song_name = "Fire Sanctuary (Variation) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	culture_group = goron_group }
+			#NOT = {	culture_group = rosian }
+			NOT = {	culture = keaton }
+			NOT = {	culture = gem_lander }
+			NOT = {	culture = gerudo }
+			NOT = {	culture = zuna }
+			NOT = {	culture_group = lfos }
+		}	
+	}
+}
+
+song = {
+	name = "245 Second Girahnim Battle (Phase 2, Floating Orbs).ogg"
+	song_name = "Second Girahnim Battle (Phase 2, Floating Orbs) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+	}
+}
+
+song = {
+	name = "246 Imprisoned Battle (Groosinator).ogg"
+	song_name = "Imprisoned Battle (Groosinator) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+	}
+}
+
+song = {
+	name = "249 Open Time Portal.ogg"
+	song_name = "Open Time Portal - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = sheikah }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "256 Zelda's Theme.ogg"
+	song_name = "Skyward Sword Zelda's Theme - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = sheikah }
+			NOT = { religion = golden_goddesses }
+			NOT = { religion = hylia_religion }
+		}	
+	}
+}
+
+song = {
+	name = "259 Levias Battle.ogg"
+	song_name = "Levias Battle - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1 
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = {	culture_group = avian_group }
+			NOT = { religion = wind_fish_religion }
+		}	
+	}
+}
+
+song = {
+	name = "261 Bilocyte Battle (Critical).ogg"
+	song_name = "Bilocyte Battle (Critical) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+	}
+}
+
+song = {
+	name = "283 Sky Keep Appears.ogg"
+	song_name = "Sky Keep Appears - Koji Kondo"
+	
+	chance = {
+		factor = 2
+	}
+}
+
+song = {
+	name = "285 Sky Keep.ogg"
+	song_name = "Sky Keep - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1 
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "297 Under Attack (Variation #2).ogg"
+	song_name = "Under Attack (Variation #2) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+	}
+}
+
+song = {
+	name = "302 Girahnim Third Battle (Phase 2, Variation #1).ogg"
+	song_name = "Girahnim Third Battle (Phase 2, Variation #1) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+	}
+}
+
+song = {
+	name = "311 Demise Claims Girahnim (US Version).ogg"
+	song_name = "Demise Claims Girahnim (US Version) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+	}
+}
+
+song = {
+	name = "311 Demise Claims Girahnim (US Version).ogg"
+	song_name = "Demise Claims Girahnim (US Version) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+	}
+}
+
+song = {
+	name = "313 Groose Saves Zelda (Groose Variation).ogg"
+	song_name = "Groose Saves Zelda (Groose Variation) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1 
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = { culture_group = avian_group }
+		}	
+	}
+}
+
+song = {
+	name = "316 Demise Battle Intro (Variation).ogg"
+	song_name = "Demise Battle Intro (Variation) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+	}
+}
+
+song = {
+	name = "320 Demise Battle (Phase 2).ogg"
+	song_name = "Demise Battle (Phase 2) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+	}
+}
+
+song = {
+	name = "324 Fi's Farewell.ogg"
+	song_name = "Fi's Farewell - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = skylofter }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "326 Fi's Theme (Piano Lament).ogg"
+	song_name = "Fi's Theme (Piano Lament) - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = skylofter }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "329 Staff Roll.ogg"
+	song_name = "Skyward Sword Staff Roll - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = wind_tribe }
+			NOT = {	culture = skylofter }
+			NOT = {	culture_group = avian_group }
+			NOT = { religion_group = goddesses_religion }
+		}	
+	}
+}
+
+song = {
+	name = "372 Romance Theme.ogg"
+	song_name = "Romance Theme - Koji Kondo"
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0 
+			NOT = {	dynasty = 1 }
+			NOT = {	dynasty = 14601 }
+			NOT = {	culture = skylofter }
+			NOT = {	culture_group = hylian_group }
+			NOT = {	culture = wind_tribe }
+		}	
+	}
+}
