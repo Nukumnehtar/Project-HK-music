@@ -935,7 +935,7 @@ song = {
 
 song = {
 	name = "63_Serenade_of_Water.ogg"
-	song_name = "Serenade_of_Water - Zelda Reorchestrated"
+	song_name = "Serenade of Water - Zelda Reorchestrated"
 	
 	chance = {
 		factor = 2 
